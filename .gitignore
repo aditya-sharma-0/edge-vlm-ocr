@@ -1,0 +1,25 @@
+# Environments
+.venv/
+env/
+__pycache__/
+
+# Datasets and Images
+data/
+datasets/
+*.jpg
+*.png
+*.jpeg
+
+# Model Weights and Checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoint-*/
+smolvlm-deepseek-prototype/
+
+# OS generated files
+.DS_Store
+
+$*
+temp_*
