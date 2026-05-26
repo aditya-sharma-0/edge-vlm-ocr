@@ -6,9 +6,13 @@ __pycache__/
 # Datasets and Images
 data/
 datasets/
+icdar2015/
 *.jpg
 *.png
 *.jpeg
+
+# Papers (large PDFs)
+*.pdf
 
 # Model Weights and Checkpoints
 *.safetensors
@@ -17,6 +21,9 @@ datasets/
 *.pth
 checkpoint-*/
 smolvlm-deepseek-prototype/
+outputs/
+runs/
+wandb/
 
 # OS generated files
 .DS_Store
